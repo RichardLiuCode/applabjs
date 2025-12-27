@@ -63,6 +63,14 @@ function setText(elementId, text) {
   }
 }
 
+function showElement(id) {
+  document.getElementById.style.display = "none";
+}
+
+function showElement(id) {
+  document.getElementById.style.display = "revert"
+}
+
 function onEvent(id, status, callback) {
   var elementForID = document.getElementById(id);
   if (elementForID) {
@@ -90,6 +98,20 @@ function textInput(id, text) {
   newTextInput.value = text;
   newTextInput.id = id;
   document.body.appendChild(newTextInput);
+}
+
+function textLabel(id, text) {
+  let newLabel = document.createElement("laben");
+  newLabel.value = text;
+  newLabel.id = id;
+  document.body.appendChild(newLabel);
+}
+
+function image(id, url) {
+  let newImage = document.createElement("image");
+  newImage.id = id;
+  newImage.src = url;
+  document.body.appendChild(newImage);
 }
 //MATH
 function randomNumber(min, max) {
