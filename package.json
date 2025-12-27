@@ -1,0 +1,8 @@
+{
+    "name": "applab.js",
+    "version": "1.0.0",
+    "description": "a js package that allow to use js function from code.org App Lab to browser",
+    "main": "applab.js",
+    "author": "Richard Liu",
+    "license": "MIT"
+}
