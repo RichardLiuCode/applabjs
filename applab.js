@@ -7,6 +7,10 @@ You can use this code in your website
 */
 
 //UI Control
+function write(text) {
+  document.body.innerHTML = text;
+}
+
 function getText(elementId) {
   return (
     document.getElementById(elementId).value ||
@@ -36,6 +40,10 @@ function setNumber(id, Number) {
       document.getElementById(id).value = NaN;
     }
   }
+}
+
+function setImageUrl(ImageId, url) {
+  document.getElementById(ImageId).src = url;
 }
 
 function getImageUrl(ImageId) {
@@ -68,12 +76,29 @@ function open(URLForOpen) {
   window.open(URLForOpen);
 }
 
+
+function button(id, text) {
+  let newButton = document.createElement("button");
+  newButton.innerText = text;
+  newButton.id = id;
+  document.body.appendChild(newButton);
+}
+
+function textInput(id, text) {
+  let newTextInput = document.createElement("input");
+  newTextInput.type = "text";
+  newTextInput.value = text;
+  newTextInput.id = id;
+  document.body.appendChild(newTextInput);
+}
 //MATH
 function RandomNumber(min, max) {
   return (Math.random() * (max - min) + min).toFixed(0);
 }
 
 //list
-function appendItems(list,item){
-  list.push(item)
+function appendItems(list, item) {
+  list.push(item);
 }
+
+
