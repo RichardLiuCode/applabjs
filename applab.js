@@ -92,7 +92,7 @@ function textInput(id, text) {
   document.body.appendChild(newTextInput);
 }
 //MATH
-function RandomNumber(min, max) {
+function randomNumber(min, max) {
   return parseFloat((Math.random() * (max - min) + min).toFixed(0));
 }
 
