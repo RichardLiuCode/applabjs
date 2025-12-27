@@ -55,20 +55,24 @@ function setStyle(ID, CSS) {
 }
 
 function setText(elementId, text) {
-  var element = document.getElementById(elementId);
-  if (element.value !== undefined) {
+  let element = document.getElementById(elementId);
+  if (element.value != undefined) {
     element.value = text;
   } else {
-    element.innerHTML = text;
+    element.innerText = text;
   }
 }
 
-function showElement(id) {
-  document.getElementById.style.display = "none";
+function hideElement(id) {
+  document.getElementById(id).style.display = "none";
 }
 
 function showElement(id) {
-  document.getElementById.style.display = "revert"
+  document.getElementById(id).style.display = "revert"
+}
+
+function deleteElement(id) {
+  document.getElementById(id).remove();
 }
 
 function onEvent(id, status, callback) {
