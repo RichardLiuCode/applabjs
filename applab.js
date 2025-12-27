@@ -117,6 +117,14 @@ function image(id, url) {
   newImage.src = url;
   document.body.appendChild(newImage);
 }
+
+function getXPosition(id){
+return parseFloat(window.getComputedStyle(document.getElementsById(id)).left);
+}
+
+function getYPosition(id){
+return parseFloat(window.getComputedStyle(document.getElementsById(id)).top);
+}
 //MATH
 function randomNumber(min, max) {
   return parseFloat((Math.random() * (max - min) + min).toFixed(0));
