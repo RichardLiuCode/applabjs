@@ -105,25 +105,25 @@ function textInput(id, text) {
 }
 
 function textLabel(id, text) {
-  let newLabel = document.createElement("laben");
-  newLabel.value = text;
+  let newLabel = document.createElement("label");
+  newLabel.innerText = text;
   newLabel.id = id;
   document.body.appendChild(newLabel);
 }
 
 function image(id, url) {
-  let newImage = document.createElement("image");
+  let newImage = document.createElement("img");
   newImage.id = id;
   newImage.src = url;
   document.body.appendChild(newImage);
 }
 
 function getXPosition(id){
-return parseFloat(window.getComputedStyle(document.getElementsById(id)).left);
+return parseFloat(window.getComputedStyle(document.getElementById(id)).left);
 }
 
 function getYPosition(id){
-return parseFloat(window.getComputedStyle(document.getElementsById(id)).top);
+return parseFloat(window.getComputedStyle(document.getElementById(id)).top);
 }
 //MATH
 function randomNumber(min, max) {
