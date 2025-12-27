@@ -51,7 +51,7 @@ function getImageUrl(ImageId) {
 }
 
 function setStyle(ID, CSS) {
-  document.getElementByID(ID).style = CSS;
+  document.getElementById(ID).style = CSS;
 }
 
 function setText(elementId, text) {
@@ -93,7 +93,7 @@ function textInput(id, text) {
 }
 //MATH
 function RandomNumber(min, max) {
-  return (Math.random() * (max - min) + min).toFixed(0);
+  return parseFloat((Math.random() * (max - min) + min).toFixed(0));
 }
 
 //list
