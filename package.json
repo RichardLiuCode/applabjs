@@ -1,0 +1,25 @@
+{
+  "name": "applabjs",
+  "version": "1.0.0",
+  "description": "A JavaScript Library allow to use functions in code.org App Lab in browser enviroment",
+  "keywords": [
+    "code.org",
+    "AppLab",
+    "JavaScript"
+  ],
+  "homepage": "https://github.com/RichardLiuCode/applabjs#readme",
+  "bugs": {
+    "url": "https://github.com/RichardLiuCode/applabjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardLiuCode/applabjs.git"
+  },
+  "license": "MIT",
+  "author": "Richard Liu",
+  "type": "commonjs",
+  "main": "applab.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  }
+}
