@@ -1,6 +1,6 @@
 # AppLabJS
 
-A JavaScript Library allow to use functions in code.org App Lab in browser enviroment
+A JavaScript Library allow to use functions in code.org App Lab in browser environment
 
 # Installation
 
