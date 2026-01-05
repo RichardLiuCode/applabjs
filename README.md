@@ -6,11 +6,8 @@ A JavaScript Library allow to use functions in code.org App Lab in browser envir
 
 Add this script tag to your HTML code
 
-`
-
 ```html
 <script src="https://cdn.jsdelivr.net/gh/richardliucode/applabjs@1.0.2/applab.min.js"></script>
-`
 ```
 
 # Usage
