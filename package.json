@@ -1,6 +1,6 @@
 {
   "name": "applabjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript Library allow to use functions in code.org App Lab in browser enviroment",
   "keywords": [
     "code.org",
